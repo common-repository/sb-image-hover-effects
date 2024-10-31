@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 30, 2019, 9:47:46 AM
+    Author     : biplo
+*/
+
+
+.elementor-panel #elementor-panel-category-sa-el-addons .oxi-el-admin-icon,
+.elementor-panel #elementor-panel-elements  .oxi-el-admin-icon{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+.elementor-panel #elementor-panel-category-sa-el-addons .oxi-el-admin-icon:after,
+.elementor-panel #elementor-panel-elements .oxi-el-admin-icon:after{
+    content: "EA";
+    position: absolute;
+    top: -12px;
+    right: 3px;
+    z-index: 1;
+    border-radius: 3px;
+    color: #FFF;
+    background: rgba(221,95,183,1);
+    background: linear-gradient(135deg, rgba(0,225,255,1) 0%,rgba(221,95,183,1) 65%,rgba(234,30,68,1) 100%);
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-family: Roboto,Arial,Helvetica,Verdana,sans-serif;
+    padding: 0.35em 0.65em;
+}
+.elementor-panel #elementor-panel-category-sa-el-addons .elementor-element:hover .oxi-el-admin-icon:after,
+.elementor-panel #elementor-panel-elements .sa-el-widgets-addons:hover .oxi-el-admin-icon:after{
+    color: #556068;
+    background: #FFF;
+}
+.elementor-panel #elementor-panel-category-sa-el-addons .elementor-element,
+.elementor-panel #elementor-panel-elements .sa-el-widgets-addons {
+    -webkit-transition: background-image .3s;
+    transition: background-image .3s;
+}
+.elementor-panel #elementor-panel-category-sa-el-addons .elementor-element:hover,
+.elementor-panel #elementor-panel-category-sa-el-addons .elementor-element:focus,
+.elementor-panel #elementor-panel-elements .sa-el-widgets-addons:hover,
+.elementor-panel #elementor-panel-elements .sa-el-widgets-addons:focus {
+    background-image: -webkit-linear-gradient(135deg, rgba(0,225,255,1) 0%,rgba(221,95,183,1) 50%,rgba(234,30,68,1) 100%);
+    background-image:         linear-gradient(135deg, rgba(0,225,255,1) 0%,rgba(221,95,183,1) 50%,rgba(234,30,68,1) 100%);
+}
+.elementor-panel #elementor-panel-category-sa-el-addons .elementor-element:hover .icon,
+.elementor-panel #elementor-panel-category-sa-el-addons .elementor-element:hover .title,
+.elementor-panel #elementor-panel-category-sa-el-addons .elementor-element:focus .icon,
+.elementor-panel #elementor-panel-category-sa-el-addons .elementor-element:focus .title,
+.elementor-panel #elementor-panel-elements .sa-el-widgets-addons:hover .icon,
+.elementor-panel #elementor-panel-elements .sa-el-widgets-addons:hover .title,
+.elementor-panel #elementor-panel-elements .sa-el-widgets-addons:focus .icon,
+.elementor-panel #elementor-panel-elements .sa-el-widgets-addons:focus .title {
+    background: transparent;
+    color: #FFF;
+    -webkit-text-fill-color: initial;
+}

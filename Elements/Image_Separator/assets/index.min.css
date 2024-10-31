@@ -1,0 +1,28 @@
+
+.sa-el-image-separator-container{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: auto;
+}
+.sa-el-image-separator-link{
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+a.sa-el-image-separator-link:hover,
+a.sa-el-image-separator-link:visited,
+a.sa-el-image-separator-link:focus,
+a.sa-el-image-separator-link:active {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+    text-decoration: none !important;
+}
+.sa-el-image-separator-container .img-responsive {
+    display: inline-block;
+}

@@ -1,0 +1,109 @@
+.sa-el-twitter-feed::before,
+.sa-el-twitter-feed::after {
+    content: "";
+    clear: both;
+}
+
+.sa-el-twitter-feed-masonry .sa-el-twitter-feed-item {
+    float: left;
+}
+
+@media only screen and (max-width: 480px) {
+    .sa-el-twitter-feed-masonry.sa-el-twitter-feed-col-2 .sa-el-twitter-feed-item {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .sa-el-twitter-feed-masonry.sa-el-twitter-feed-col-3 .sa-el-twitter-feed-item {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .sa-el-twitter-feed-masonry.sa-el-twitter-feed-col-4 .sa-el-twitter-feed-item {
+        width: 100% !important;
+    }
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-inner {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sa-el-twitter-feed-item a {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+.sa-el-twitter-feed-item a:hover {
+    outline: 0;
+    color: #005580;
+}
+
+.sa-el-twitter-feed-item a:focus {
+    outline: none;
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-header {
+    padding: 20px 15px 0;
+    margin-bottom: 10px;
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-header .sa-el-twitter-feed-item-avatar {
+    float: left;
+    width: 38px;
+    margin-right: 10px;
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-header .sa-el-twitter-feed-item-avatar img {
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-header .sa-el-twitter-feed-item-avatar.avatar-circle img {
+    border-radius: 50%;
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-header .sa-el-twitter-feed-item-meta {
+    float: left;
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-header .sa-el-twitter-feed-item-meta .sa-el-twitter-feed-item-icon {
+    color: #1da1f2;
+    margin-right: 5px;
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-header .sa-el-twitter-feed-item-meta .sa-el-twitter-feed-item-author {
+    color: #444;
+    line-height: 1.5em;
+    font-weight: 700;
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-header .sa-el-twitter-feed-item-date {
+    float: right;
+    margin-right: 10px;
+    font-size: 90%;
+    color: #999999;
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-content {
+    padding: 0 15px 15px;
+}
+
+.sa-el-twitter-feed-item .sa-el-twitter-feed-item-content p {
+    color: #666666;
+    margin: 0 0 5px;
+    min-height: 20px;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.sa-el-twitter-feed.swiper-container .swiper-button-next,
+.sa-el-twitter-feed.swiper-container .swiper-button-prev {
+    background-image: none;
+    outline: none;
+}

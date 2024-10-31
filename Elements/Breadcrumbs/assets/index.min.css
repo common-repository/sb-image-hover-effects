@@ -1,0 +1,76 @@
+
+.sa-el-breadcrumbs{
+    list-style: none;
+    margin: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.sa-el-breadcrumbs > li,
+.sa-el-breadcrumbs > li > a{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+.sa-el-breadcrumbs-align-left .sa-el-breadcrumbs {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.sa-el-breadcrumbs-align-center .sa-el-breadcrumbs {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.sa-el-breadcrumbs-align-right .sa-el-breadcrumbs {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.sa-el-breadcrumbs-align-left .sa-el-breadcrumbs > li,
+.sa-el-breadcrumbs-align-center .sa-el-breadcrumbs > li,
+.sa-el-breadcrumbs-align-right .sa-el-breadcrumbs > li {
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+.sa-el-breadcrumbs-align-stretch .sa-el-breadcrumbs {
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+}
+.sa-el-breadcrumbs-align-stretch .sa-el-breadcrumbs > li {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.sa-el-breadcrumbs-align-stretch .sa-el-breadcrumbs > li > a {
+    display: block;
+}
+.sa-el-breadcrumbs {
+    margin-left: -12px;
+}
+.sa-el-breadcrumbs > li {
+    margin-left: 12px;
+}
+.sa-el-nav--stacked.sa-el-breadcrumbs {
+    margin-left: 0;
+}
+.sa-el-nav--stacked.sa-el-breadcrumbs > li {
+    margin-left: 0;
+}
+.sa-el-nav--stacked.sa-el-breadcrumbs > li:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.elementor-editor-active .elementor-inline-editing.sa-el-breadcrumbs__crumb--home,
+.elementor-editor-active .elementor-inline-editing.sa-el-breadcrumbs__separator__text{
+    cursor: text;
+}
+.sa-el-breadcrumbs__item,
+.sa-el-breadcrumbs__separator {
+    cursor: default;
+}
+.sa-el-breadcrumbs-align-stretch .sa-el-breadcrumbs > .sa-el-breadcrumbs__separator {
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    text-align: center;
+}

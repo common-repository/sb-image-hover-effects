@@ -1,0 +1,121 @@
+.sa-el-scroll-button.icon_align_right .sa-el-scroll-button-align-icon-right {
+    float: right
+}
+
+.sa-el-scroll-button.icon_align_left .sa-el-scroll-button-align-icon-left {
+    float: left
+}
+
+.sa-el-scroll-button .sa-el-scroll-button-icon svg {
+    width: 1em
+}
+
+.sa-el-scroll-button.icon_align_right .sa-el-scroll-button-align-icon-right {
+    float: left
+}
+
+.sa-el-scroll-button.icon_align_left .sa-el-scroll-button-align-icon-left {
+    float: right
+}
+
+[class*='sa-el-position-top'],
+[class*='sa-el-position-bottom'],
+[class*='sa-el-position-left'],
+[class*='sa-el-position-right'],
+[class*='sa-el-position-center'] {
+    position: absolute !important
+}
+
+.sa-el-position-top {
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.sa-el-position-bottom {
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.sa-el-position-left {
+    top: 0;
+    bottom: 0;
+    left: 0
+}
+
+.sa-el-position-right {
+    top: 0;
+    bottom: 0;
+    right: 0
+}
+
+.sa-el-position-top-left {
+    top: 0;
+    left: 0
+}
+
+.sa-el-position-top-right {
+    top: 0;
+    right: 0
+}
+
+.sa-el-position-bottom-left {
+    bottom: 0;
+    left: 0
+}
+
+.sa-el-position-bottom-right {
+    bottom: 0;
+    right: 0
+}
+
+.sa-el-position-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    max-width: 100%;
+    box-sizing: border-box
+}
+
+[class*='sa-el-position-center-left'],
+[class*='sa-el-position-center-right'] {
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.sa-el-position-center-left {
+    left: 0
+}
+
+.sa-el-position-center-right {
+    right: 0
+}
+
+.sa-el-position-center-left-out {
+    right: 100%;
+    width: max-content
+}
+
+.sa-el-position-center-right-out {
+    left: 100%;
+    width: max-content
+}
+
+.sa-el-position-top-center,
+.sa-el-position-bottom-center {
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: 100%;
+    box-sizing: border-box
+}
+
+.sa-el-position-top-center {
+    top: 0
+}
+
+.sa-el-position-bottom-center {
+    bottom: 0
+}

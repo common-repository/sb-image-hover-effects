@@ -1,0 +1,651 @@
+.sa-el-learndash-wrapper.sa-el-3d-hover {
+    perspective: 5000px;
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .sa-el-learn-dash-course-inner {
+    background: #fff;
+    box-shadow: 0px 10px 120px rgba(116, 83, 198, 0.15);
+    margin: 15px;
+    border-radius: 10px;
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .sa-el-learn-dash-course-inner .sa-el-learn-dash-course-header {
+    padding: 15px 35px 10px;
+    text-align: center;
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .sa-el-learn-dash-course-inner .course-tag {
+    color: #f31768;
+    display: inline-block;
+    font-weight: 500;
+    background: rgba(240,23,109,0.12);
+    padding: 8px 18px 8px;
+    line-height: 1;
+    border-radius: 50px;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .sa-el-learn-dash-course-inner .course-tag:last-child {
+    margin-right: 0px;
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .sa-el-learn-dash-course-inner .sa-el-learn-dash-course-thumbnail {
+    display: block;
+    position: relative;
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .sa-el-learn-dash-course-inner .sa-el-learn-dash-course-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .sa-el-learn-deash-course-content-card {
+    text-align: center;
+    padding: 0 36px 20px;
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .course-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-top: 20px;
+    margin-bottom: 18px;
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .course-card-title a {
+    color: #485771;
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .sa-el-course-button {
+    margin-top: 15px;
+    color: #fff;
+    background: #f31768;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 10px 15px -5px rgba(116, 83, 198, 0.4);
+}
+.sa-el-learndash-wrapper .sa-el-learn-dash-course .layout-button-wrap {
+    text-align: center;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-dash-course-inner {
+    margin-bottom: 45px;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-deash-course-content-card {
+    position: relative;
+}
+.sa-el-learndash-wrapper.layout__1 .course-button-wrap {
+    text-align: center;
+    position: relative;
+    top: 47px;
+    margin-top: -47px;
+}
+.sa-el-learndash-wrapper.layout__1 .course-button-wrap .sa-el-course-button {
+    margin-top: 0;
+}
+.sa-el-learndash-wrapper.layout__1 a.sa-el-learn-dash-course-thumbnail {
+    position: relative;
+}
+.sa-el-learndash-wrapper.layout__1 .price-ticker-tag {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 24%;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+    border-radius: 0 50px 50px 0;
+    font-weight: 600;
+    color: #f31768;
+    font-size: 16px;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-dash-author-meta {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-dash-author-meta .author-image {
+    flex-basis: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-dash-author-meta .author-desc {
+    text-align: left;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-dash-author-meta .author-desc h5 {
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-dash-author-meta .author-desc h5 a {
+    color: #475671;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-dash-author-meta .author-desc p {
+    margin: 0;
+    font-size: 13px;
+    color: #7484a1;
+    font-weight: 500;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-dash-course-short-desc {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-deash-course-content-card {
+    text-align: left;
+}
+.sa-el-learndash-wrapper.layout__1 .sa-el-learn-deash-course-content-card .course-card-title {
+    text-align: left;
+}
+.sa-el-learndash-wrapper.layout__2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sa-el-learndash-wrapper.layout__2 .sa-el-course-button {
+    margin-top: 20px;
+}
+.sa-el-learndash-wrapper.layout__2 .course-card-title {
+    margin-bottom: 6px;
+}
+.sa-el-learndash-wrapper.default .card-price, .sa-el-learndash-wrapper.layout__3 .card-price {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    background: #f31768;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: small;
+}
+.sa-el-learndash-wrapper.layout__3 .sa-el-course-layout-3.card-style .sa-el-learn-dash-course-inner {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.5s;
+    border-radius: 0px;
+    position: relative;
+}
+.sa-el-learndash-wrapper.layout__3 a.card-thumb {
+    display: block;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+}
+.sa-el-learndash-wrapper.layout__3 a.card-thumb img {
+    width: 100%;
+    opacity: 1;
+    display: block;
+}
+.sa-el-learndash-wrapper.layout__3 .card-body {
+    position: relative;
+    transition: height 0.5s;
+    padding: 15px 30px 24px;
+    overflow: hidden;
+}
+.sa-el-learndash-wrapper.layout__3 .sa-el-learn-dash-course-short-desc {
+    line-height: 27px;
+}
+.sa-el-learndash-wrapper.layout__3 .sa-el-learn-dash-course-meta-card span.enrolled-count {
+    margin-left: 0;
+}
+.sa-el-learndash-wrapper.layout__3 .sa-el-learn-dash-course-meta-card > span {
+    color: #4b5981;
+    font-size: small;
+}
+.sa-el-learndash-wrapper.layout__3 .sa-el-learn-dash-course-meta-card span.enrolled-count {
+    margin-right: 10px;
+}
+.sa-el-learndash-wrapper.layout__3 .course-card-title {
+    padding-top: 0;
+    margin-bottom: 14px;
+}
+.sa-el-learndash-wrapper.layout__3 .sa-el-course-button {
+    margin-top: 15px;
+}
+.sa-el-learndash-wrapper.default .sa-el-learn-dash-course.sa-el-course-default-layout .sa-el-learn-deash-course-content-card {
+    text-align: left;
+}
+.sa-el-learndash-wrapper.default .sa-el-learn-dash-course.sa-el-course-default-layout .sa-el-learn-dash-course-header {
+    padding: 15px 0px 5px;
+}
+
+.sa-el-learn-dash-course .learndash-wrapper.learndash-widget .ld-progress {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.sa-el-learn-dash-course .learndash-wrapper.learndash-widget .ld-progress .ld-progress-percentage {
+    color: #f31768;
+    margin: 0;
+}
+.sa-el-learn-dash-course .learndash-wrapper.learndash-widget .ld-progress .ld-progress-bar-percentage {
+    background: #f31768;
+}
+.sa-el-learn-dash-course .learndash-wrapper.learndash-widget .ld-progress .ld-progress-steps {
+    display: none;
+}
+
+.sa-el-learndash-wrapper .learndash-wrapper .ld-progress.ld-progress-inline {
+    justify-content: center;
+}
+
+.card-footer {
+    padding: 10px 15px;
+    border-top: 1px solid #e5e5f5ef;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer > a,
+.card-footer > span {
+    margin: 0;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: #9253c6;
+    border: 2px solid rgba(108, 98, 255, 0.4);
+    font-weight: 600;
+    transition: 300ms;
+}
+
+.course-price:hover, .course-card-cat:hover {
+    color: #ffffff;
+}
+
+.card-footer > a:hover, .card-footer > span:hover {
+    background: #9253c6;
+}
+
+.card-footer a i {
+    margin-right: 5px;
+}
+
+a.sa-el-course-card-button:hover, a.sa-el-course-card-button:hover i {
+    color: #ffffff;
+}
+
+.sa-el-learn-dash-course-meta-card span {
+    color: #f31768;
+    font-size: 16px;
+}
+.sa-el-learn-dash-course-meta-card span.price {
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: 3px;
+}
+.sa-el-learn-dash-course-meta-card span.enrolled-count {
+    margin: 0 25px;
+}
+.sa-el-learn-dash-course-meta-card span i {
+    margin-right: 8px;
+}
+
+.sa-el-learn-dash-course-short-desc {
+    font-size: 15px;
+    line-height: 26px;
+    color: #7484a1;
+    margin-top: 5px;
+}
+.sa-el-learn-dash-course-short-desc p {
+    margin: 0px;
+}
+
+.price-tikcer-position-left-top .sa-el-learndash-wrapper.layout__1 .price-ticker-tag {
+    left: 0;
+    right: auto;
+    bottom: auto;
+    top: 15px;
+}
+
+.price-tikcer-position-right-bottom .sa-el-learndash-wrapper.layout__1 .price-ticker-tag {
+    left: auto;
+    right: 0;
+    bottom: 15px;
+    top: auto;
+    margin-right: 0 !important;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.price-tikcer-position-right-top .sa-el-learndash-wrapper.layout__1 .price-ticker-tag {
+    left: auto;
+    right: 0;
+    bottom: auto;
+    top: 15px;
+    margin-right: 0 !important;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.course-author-meta-inline {
+    font-size: 14px;
+}
+
+.sa-el-learn-dash-course-inner .course-author-meta-inline img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.sa-el-learn-dash-course-inner .course-author-meta-inline span {
+    font-size: 14px;
+    color: #929aae;
+    margin: 0 2px 0 2px;
+}
+
+.sa-el-learn-dash-course-inner .course-author-meta-inline > a {
+    color: #4b5981;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.sa-el-learn-dash-course.sa-el-course-default-layout .card-footer {
+    padding: 15px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.sa-el-learndash-wrapper.layout__1 .learndash-wrapper .ld-progress.ld-progress-inline {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.course-steps-label-yes .sa-el-learn-dash-course .learndash-wrapper.learndash-widget .ld-progress .ld-progress-steps {
+    display: block;
+    margin-left: 15px;
+}
+
+/*--- Gallery Column CSS ---*/
+@media only screen and (min-width: 1025px) {
+    /* For Desktop: */
+    .elementor-element.elementor-grid-1 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-1 .sa-el-learn-dash-course {
+        width: 100%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-2 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-2 .sa-el-learn-dash-course {
+        width: 50%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-2 .sa-el-learn-dash-course:nth-of-type(2n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-2 .sa-el-learn-dash-course:nth-of-type(2n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-3 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-3 .sa-el-learn-dash-course {
+        width: 33.3333%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-3 .sa-el-learn-dash-course:nth-of-type(3n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-3 .sa-el-learn-dash-course:nth-of-type(3n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-4 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-4 .sa-el-learn-dash-course {
+        width: 25%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-4 .sa-el-learn-dash-course:nth-of-type(4n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-4 .sa-el-learn-dash-course:nth-of-type(4n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-5 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-5 .sa-el-learn-dash-course {
+        width: 20%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-5 .sa-el-learn-dash-course:nth-of-type(5n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-5 .sa-el-learn-dash-course:nth-of-type(5n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-6 {
+        position: relative;
+    }
+
+
+    .elementor-element.elementor-grid-6 .sa-el-learn-dash-course {
+        width: 16.6667%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-6 .sa-el-learn-dash-course:nth-of-type(6n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-6 .sa-el-learn-dash-course:nth-of-type(6n+1) {
+        clear: left;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 766px) {
+    /* For tablets: */
+    .elementor-element.elementor-grid-tablet-1 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-tablet-1 .sa-el-learn-dash-course {
+        width: 100%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-tablet-2 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-tablet-2 .sa-el-learn-dash-course {
+        width: 50%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-tablet-2 .sa-el-learn-dash-course:nth-of-type(2n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-tablet-2 .sa-el-learn-dash-course:nth-of-type(2n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-tablet-3 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-tablet-3 .sa-el-learn-dash-course {
+        width: 33.3333%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-tablet-3 .sa-el-learn-dash-course:nth-of-type(3n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-tablet-3 .sa-el-learn-dash-course:nth-of-type(3n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-tablet-4 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-tablet-4 .sa-el-learn-dash-course {
+        width: 25%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-tablet-4 .sa-el-learn-dash-course:nth-of-type(4n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-tablet-4 .sa-el-learn-dash-course:nth-of-type(4n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-tablet-5 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-tablet-5 .sa-el-learn-dash-course {
+        width: 20%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-tablet-5 .sa-el-learn-dash-course:nth-of-type(5n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-tablet-5 .sa-el-learn-dash-course:nth-of-type(5n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-tablet-6 {
+        position: relative;
+    }
+
+
+    .elementor-element.elementor-grid-tablet-6 .sa-el-learn-dash-course {
+        width: 16.6667%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-tablet-6 .sa-el-learn-dash-course:nth-of-type(6n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-tablet-6 .sa-el-learn-dash-course:nth-of-type(6n+1) {
+        clear: left;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .elementor-element.elementor-grid-mobile-1 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-mobile-1 .sa-el-learn-dash-course {
+        width: 100%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-mobile-2 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-mobile-2 .sa-el-learn-dash-course {
+        width: 50%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-mobile-2 .sa-el-learn-dash-course:nth-of-type(2n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-mobile-2 .sa-el-learn-dash-course:nth-of-type(2n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-mobile-3 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-mobile-3 .sa-el-learn-dash-course {
+        width: 33.3333%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-mobile-3 .sa-el-learn-dash-course:nth-of-type(3n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-mobile-3 .sa-el-learn-dash-course:nth-of-type(3n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-mobile-4 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-mobile-4 .sa-el-learn-dash-course {
+        width: 25%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-mobile-4 .sa-el-learn-dash-course:nth-of-type(4n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-mobile-4 .sa-el-learn-dash-course:nth-of-type(4n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-mobile-5 {
+        position: relative;
+    }
+
+    .elementor-element.elementor-grid-mobile-5 .sa-el-learn-dash-course {
+        width: 20%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-mobile-5 .sa-el-learn-dash-course:nth-of-type(5n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-mobile-5 .sa-el-learn-dash-course:nth-of-type(5n+1) {
+        clear: left;
+    }
+
+    .elementor-element.elementor-grid-mobile-6 {
+        position: relative;
+    }
+
+
+
+    .elementor-element.elementor-grid-mobile-6 .sa-el-learn-dash-course {
+        width: 16.6667%;
+        float: left;
+    }
+
+    .elementor-element.elementor-grid-mobile-6 .sa-el-learn-dash-course:nth-of-type(6n) {
+        margin-right: 0 !important;
+    }
+
+    .elementor-element.elementor-grid-mobile-6 .sa-el-learn-dash-course:nth-of-type(6n+1) {
+        clear: left;
+    }
+}

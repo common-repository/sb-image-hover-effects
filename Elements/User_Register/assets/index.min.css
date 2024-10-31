@@ -1,0 +1,289 @@
+/* User Login Css*/
+
+.sa-el-list {
+    padding: 0;
+    list-style: none !important
+}
+
+.sa-el-list>li::before,
+.sa-el-list>li::after {
+    content: "";
+    display: table
+}
+
+.sa-el-list>li::after {
+    clear: both
+}
+
+.sa-el-list>li>:last-child {
+    margin-bottom: 0
+}
+
+.sa-el-list ul {
+    margin: 0;
+    padding-left: 30px;
+    list-style: none
+}
+
+.sa-el-list>li:nth-child(n+2),
+.sa-el-list>li>ul {
+    margin-top: 10px
+}
+
+.sa-el-list-divider>li:nth-child(n+2) {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(214, 214, 214, 0.49)
+}
+
+.sa-el-list-striped>li {
+    padding: 10px 10px
+}
+
+.sa-el-list-striped>li:nth-of-type(odd) {
+    background: #f8f8f8
+}
+
+.sa-el-list-striped>li:nth-child(n+2) {
+    margin-top: 0
+}
+
+.sa-el-list-bullet>li {
+    position: relative;
+    padding-left: calc(1.5em + 10px)
+}
+
+.sa-el-list-large>li:nth-child(n+2),
+.sa-el-list-large>li>ul {
+    margin-top: 20px
+}
+
+.sa-el-list-large.sa-el-list-divider>li:nth-child(n+2) {
+    margin-top: 20px;
+    padding-top: 20px
+}
+
+.sa-el-list-large.sa-el-list-striped>li {
+    padding: 20px 10px
+}
+
+.sa-el-list-large.sa-el-list-striped>li:nth-child(n+2) {
+    margin-top: 0
+}
+
+.sa-el-form-stacked .sa-el-form-label {
+    display: block;
+    margin-bottom: 10px
+}
+
+.sa-el-user-register .elementor-field-type-submit .elementor-button {
+    padding: 12px 30px
+}
+
+.sa-el-user-register-password a {
+    position: relative;
+    display: inline-block
+}
+
+.sa-el-user-register-password a:not(:last-child) {
+    margin-right: 22px
+}
+
+.sa-el-user-register-password a:not(:last-child):after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 50%;
+    right: -15px;
+    background-color: rgba(100, 100, 100, 0.39);
+    border-radius: 8px;
+    margin-top: -2px;
+    opacity: .3
+}
+
+.sa-el-width-1-1 {
+    width: 100%
+}
+
+.sa-el-nav,
+.sa-el-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.sa-el-nav li>a {
+    display: block;
+    text-decoration: none
+}
+
+.sa-el-nav li>a:focus {
+    outline: none
+}
+
+.sa-el-nav>li>a {
+    padding: 5px 0
+}
+
+.sa-el-nav-divider {
+    margin: 5px 0
+}
+
+.sa-el-grid-small {
+    margin-left: -15px
+}
+
+.sa-el-grid-small>* {
+    padding-left: 15px
+}
+
+.sa-el-grid+.sa-el-grid-small,
+.sa-el-grid-small>.sa-el-grid-margin,
+*+.sa-el-grid-margin-small {
+    margin-top: 15px
+}
+
+.sa-el-button:not(:disabled) {
+    cursor: pointer
+}
+
+.sa-el-button::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+.sa-el-button:hover {
+    text-decoration: none
+}
+
+.sa-el-button:focus {
+    outline: none
+}
+
+.sa-el-button-default {
+    background-color: #f8f8f8;
+    color: #333
+}
+
+.sa-el-button-default:hover,
+.sa-el-button-default:focus {
+    background-color: #ebebeb;
+    color: #333
+}
+
+.sa-el-button-default:active,
+.sa-el-button-default.sa-el-active {
+    background-color: #dfdfdf;
+    color: #333
+}
+
+.sa-el-button-primary {
+    background-color: #1e87f0;
+    color: #fff
+}
+
+.sa-el-button-primary:hover,
+.sa-el-button-primary:focus {
+    background-color: #0f7ae5;
+    color: #fff
+}
+
+.sa-el-button-primary:active,
+.sa-el-button-primary.sa-el-active {
+    background-color: #0e6dcd;
+    color: #fff
+}
+
+.sa-el-button-secondary {
+    background-color: #222;
+    color: #fff
+}
+
+.sa-el-button-secondary:hover,
+.sa-el-button-secondary:focus {
+    background-color: #151515;
+    color: #fff
+}
+
+.sa-el-button-secondary:active,
+.sa-el-button-secondary.sa-el-active {
+    background-color: #080808;
+    color: #fff
+}
+
+.sa-el-button-default:disabled,
+.sa-el-button-primary:disabled,
+.sa-el-button-secondary:disabled,
+.sa-el-button-danger:disabled {
+    background-color: #f8f8f8;
+    color: #999
+}
+
+.sa-el-button-small {
+    padding: 0 15px;
+    line-height: 30px;
+    font-size: .875rem
+}
+
+.sa-el-button-large {
+    padding: 0 40px;
+    line-height: 55px;
+    font-size: 1.25rem
+}
+
+.sa-el-button-text {
+    padding: 0;
+    line-height: 1.5;
+    background: none;
+    color: #999
+}
+
+.sa-el-button-text:hover,
+.sa-el-button-text:focus {
+    color: #666
+}
+
+.sa-el-button-text:disabled {
+    color: #999
+}
+
+.sa-el-field-group {
+    margin-bottom: 10px
+}
+
+.sa-el-form-stacked .sa-el-field-group .sa-el-checkbox {
+    margin-right: 3px
+}
+
+.sa-el-form-small {
+    font-size: .875rem
+}
+
+.sa-el-form-large {
+    font-size: 1.25rem
+}
+
+.sa-el-input {
+    max-width: 100%;
+    width: 100%;
+    border: 0 none;
+    padding: 0 10px;
+    background: #f8f8f8;
+    color: #666;
+    border-radius: 3px
+}
+
+.sa-el-user-message-show.sa-el-user-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 10px 5px;
+}
+
+.sa-el-user-message-show.sa-el-user-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px 5px;
+}

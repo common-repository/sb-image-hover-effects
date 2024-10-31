@@ -1,0 +1,60 @@
+/*
+Image Layers
+*/
+
+.sa-el-img-layers-wrapper {
+    position: relative;
+}
+
+.sa-el-img-layers-wrapper ul.sa-el-img-layers-list-wrapper {
+    margin: 0;
+    padding: 0;
+    min-height: 10px;
+}
+
+.sa-el-img-layers-list-wrapper .sa-el-img-layers-list-item {
+    list-style-type: none;
+}
+
+.elementor-editor-active .sa-el-img-layers-list-wrapper .sa-el-img-layers-list-item {
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.elementor-editor-active .sa-el-img-layers-list-wrapper .sa-el-img-layers-list-item.ui-draggable-dragging {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+.sa-el-img-layers-list-item .sa-el-img-layers-image {
+    width: 100%;
+}
+
+.elementor-editor-active .sa-el-img-layers-list-wrapper .sa-el-img-layers-list-item img:hover {
+    outline: 1px dashed #6ec1e4;
+}
+
+.sa-el-img-layers-list-wrapper .sa-el-img-layers-list-item.relative {
+    position: relative;
+    display: inline-block;
+}
+
+.sa-el-img-layers-list-wrapper .sa-el-img-layers-list-item.absolute {
+    position: absolute;
+}
+
+.sa-el-img-layers-list-item .sa-el-img-layers-image {
+    border-color: #000;
+}
+
+.sa-el-img-layers-list-item .sa-el-img-layers-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sa-el-img-layers-list-wrapper li[data-layer-animation*="animated-"] {
+    opacity: 0;
+}

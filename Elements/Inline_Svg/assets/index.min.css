@@ -1,0 +1,63 @@
+
+.sa-el-inline-svg {
+    display: inline-block
+}
+
+.sa-el-inline-svg svg {
+    min-width: 20px
+}
+
+.sa-el-inline-svg--custom-width {
+    width: 100%
+}
+
+.sa-el-inline-svg--custom-width svg {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+.sa-el-inline-svg--custom-color svg {
+    fill: currentColor;
+    stroke: currentColor
+}
+
+.sa-el-inline-svg circle:not([stroke]),
+.sa-el-inline-svg ellipse:not([stroke]),
+.sa-el-inline-svg polygon:not([stroke]),
+.sa-el-inline-svg path:not([stroke]),
+.sa-el-inline-svg rect:not([stroke]) {
+    stroke: none
+}
+
+.sa-el-inline-svg circle:not([stroke-width]),
+.sa-el-inline-svg ellipse:not([stroke-width]),
+.sa-el-inline-svg polygon:not([stroke-width]),
+.sa-el-inline-svg path:not([stroke-width]),
+.sa-el-inline-svg rect:not([stroke-width]) {
+    stroke-width: 2px
+}
+
+.sa-el-inline-svg circle:not([stroke-linecap]),
+.sa-el-inline-svg ellipse:not([stroke-linecap]),
+.sa-el-inline-svg polygon:not([stroke-linecap]),
+.sa-el-inline-svg path:not([stroke-linecap]),
+.sa-el-inline-svg rect:not([stroke-linecap]) {
+    stroke-linecap: butt
+}
+
+.sa-el-inline-svg circle:not([stroke-dasharray]),
+.sa-el-inline-svg ellipse:not([stroke-dasharray]),
+.sa-el-inline-svg polygon:not([stroke-dasharray]),
+.sa-el-inline-svg path:not([stroke-dasharray]),
+.sa-el-inline-svg rect:not([stroke-dasharray]) {
+    stroke-dasharray: none
+}
+
+.sa-el-inline-svg circle:not([stroke-miterlimit]),
+.sa-el-inline-svg ellipse:not([stroke-miterlimit]),
+.sa-el-inline-svg polygon:not([stroke-miterlimit]),
+.sa-el-inline-svg path:not([stroke-miterlimit]),
+.sa-el-inline-svg rect:not([stroke-miterlimit]) {
+    stroke-miterlimit: 4
+}

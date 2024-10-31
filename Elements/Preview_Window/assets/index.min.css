@@ -1,0 +1,45 @@
+ .sa-el-preview-image-container a {
+     display: inline-block;
+}
+ .sa-el-prev-img-tooltip-wrap {
+     overflow: hidden;
+     border-color: #000;
+     background: #f7f7f7;
+}
+ .sa-el-prev-img-tooltip-wrap {
+     padding: 0px;
+}
+ .sa-el-prev-img-tooltip-title-wrap {
+     margin: 10px auto;
+}
+ .sa-el-prev-img-tooltip-title-wrap .sa-el-previmg-tooltip-title {
+     margin: 0;
+}
+ .tooltipster-sidetip .tooltipster-content {
+     background: transparent;
+     text-align: center;
+     padding: 0;
+}
+ .sa-el-prev-img-tooltip-desc-wrap {
+     margin: 10px auto;
+}
+ .sa-el-preview-image-tooltips-img, .sa-el-prev-img-tooltip-title-wrap, .sa-el-prev-img-tooltip-desc-wrap {
+     border-color: #000;
+}
+.sa-el-preview-image-inner-trig-img {
+     display: inline-block;
+}
+ .sa-el-preview-image-wrap .sa-el-preview-image-figcap {
+     border-color: #000;
+}
+ .sa-el-preview-image-wrap .sa-el-preview-image-trigger {
+     cursor: pointer;
+}
+ .sa-el-preview-image-main-container {
+     position: relative;
+     display: inline-block;
+}
+ .sa-el-preview-image-content-container {
+     padding-left: 20px;
+     padding-right: 20px;
+}

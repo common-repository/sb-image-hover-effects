@@ -1,0 +1,843 @@
+/*Social Share styles*/
+
+.sa-el-ep-grid {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.sa-el-ep-grid .sa-el-ep-grid-item {
+    word-break: break-word
+}
+
+.sa-el-ep-grid-1 .sa-el-ep-grid-item {
+    width: 100%
+}
+
+.sa-el-ep-grid-2 .sa-el-ep-grid-item {
+    width: 50%
+}
+
+.sa-el-ep-grid-3 .sa-el-ep-grid-item {
+    width: 33.33333%
+}
+
+.sa-el-ep-grid-4 .sa-el-ep-grid-item {
+    width: 25%
+}
+
+.sa-el-ep-grid-5 .sa-el-ep-grid-item {
+    width: 20%
+}
+
+.sa-el-ep-grid-6 .sa-el-ep-grid-item {
+    width: 16.66667%
+}
+
+.sa-el-ep-grid-7 .sa-el-ep-grid-item {
+    width: 14.28571%
+}
+
+.sa-el-ep-grid-8 .sa-el-ep-grid-item {
+    width: 12.5%
+}
+
+.sa-el-ep-grid-9 .sa-el-ep-grid-item {
+    width: 11.11111%
+}
+
+.sa-el-ep-grid-10 .sa-el-ep-grid-item {
+    width: 10%
+}
+
+.sa-el-ep-grid-11 .sa-el-ep-grid-item {
+    width: 9.09091%
+}
+
+.sa-el-ep-grid-12 .sa-el-ep-grid-item {
+    width: 8.33333%
+}
+
+@media (max-width:1024px) {
+    .sa-el-ep-grid-tablet-1 .sa-el-ep-grid-item {
+        width: 100%
+    }
+    .sa-el-ep-grid-tablet-2 .sa-el-ep-grid-item {
+        width: 50%
+    }
+    .sa-el-ep-grid-tablet-3 .sa-el-ep-grid-item {
+        width: 33.33333%
+    }
+    .sa-el-ep-grid-tablet-4 .sa-el-ep-grid-item {
+        width: 25%
+    }
+    .sa-el-ep-grid-tablet-5 .sa-el-ep-grid-item {
+        width: 20%
+    }
+    .sa-el-ep-grid-tablet-6 .sa-el-ep-grid-item {
+        width: 16.66667%
+    }
+    .sa-el-ep-grid-tablet-7 .sa-el-ep-grid-item {
+        width: 14.28571%
+    }
+    .sa-el-ep-grid-tablet-8 .sa-el-ep-grid-item {
+        width: 12.5%
+    }
+    .sa-el-ep-grid-tablet-9 .sa-el-ep-grid-item {
+        width: 11.11111%
+    }
+    .sa-el-ep-grid-tablet-10 .sa-el-ep-grid-item {
+        width: 10%
+    }
+    .sa-el-ep-grid-tablet-11 .sa-el-ep-grid-item {
+        width: 9.09091%
+    }
+    .sa-el-ep-grid-tablet-12 .sa-el-ep-grid-item {
+        width: 8.33333%
+    }
+}
+
+@media (max-width:767px) {
+    .sa-el-ep-grid-mobile-1 .sa-el-ep-grid-item {
+        width: 100%
+    }
+    .sa-el-ep-grid-mobile-2 .sa-el-ep-grid-item {
+        width: 50%
+    }
+    .sa-el-ep-grid-mobile-3 .sa-el-ep-grid-item {
+        width: 33.33333%
+    }
+    .sa-el-ep-grid-mobile-4 .sa-el-ep-grid-item {
+        width: 25%
+    }
+    .sa-el-ep-grid-mobile-5 .sa-el-ep-grid-item {
+        width: 20%
+    }
+    .sa-el-ep-grid-mobile-6 .sa-el-ep-grid-item {
+        width: 16.66667%
+    }
+    .sa-el-ep-grid-mobile-7 .sa-el-ep-grid-item {
+        width: 14.28571%
+    }
+    .sa-el-ep-grid-mobile-8 .sa-el-ep-grid-item {
+        width: 12.5%
+    }
+    .sa-el-ep-grid-mobile-9 .sa-el-ep-grid-item {
+        width: 11.11111%
+    }
+    .sa-el-ep-grid-mobile-10 .sa-el-ep-grid-item {
+        width: 10%
+    }
+    .sa-el-ep-grid-mobile-11 .sa-el-ep-grid-item {
+        width: 9.09091%
+    }
+    .sa-el-ep-grid-mobile-12 .sa-el-ep-grid-item {
+        width: 8.33333%
+    }
+}
+
+.fa-moimir,
+.fa-liveinternet,
+.fa-instapaper,
+.fa-surfingbird,
+.fa-livejournal,
+.fa-blogger,
+.fa-baidu,
+.fa-buffer,
+.fa-evernote,
+.fa-line,
+.fa-viber {
+    font-family: 'social-share'
+}
+
+.fa-moimir:before,
+.fa-liveinternet:before,
+.fa-instapaper:before,
+.fa-surfingbird:before,
+.fa-livejournal:before,
+.fa-blogger:before,
+.fa-baidu:before,
+.fa-buffer:before,
+.fa-evernote:before,
+.fa-line:before,
+.fa-viber:before {
+    vertical-align: middle
+}
+
+.fa-moimir:before {
+    content: "\e900"
+}
+
+.fa-liveinternet:before {
+    content: "\e902"
+}
+
+.fa-instapaper:before {
+    content: "\e903"
+}
+
+.fa-surfingbird:before {
+    content: "\e904"
+}
+
+.fa-livejournal:before {
+    content: "\e905"
+}
+
+.fa-blogger:before {
+    content: "\f37d"
+}
+
+.fa-baidu:before {
+    content: "\e907"
+}
+
+.fa-buffer:before {
+    content: "\e901"
+}
+
+.fa-evernote:before {
+    content: "\e909"
+}
+
+.fa-line:before {
+    content: "\e90a"
+}
+
+.fa-viber:before {
+    content: "\e908"
+}
+
+.sa-el-social-share-button {
+    cursor: pointer
+}
+
+.elementor-widget-sa_el_social_share .sa-el-ep-grid {
+    overflow: hidden
+}
+
+.sa-el-social-share-buttons-align-right .sa-el-ep-grid {
+    justify-content: flex-end
+}
+
+.sa-el-social-share-buttons-align-left .sa-el-ep-grid {
+    justify-content: flex-start
+}
+
+.sa-el-social-share-buttons-align-center .sa-el-ep-grid {
+    justify-content: center
+}
+
+.sa-el-social-share-buttons-align-justify .sa-el-ep-grid {
+    justify-content: space-between
+}
+
+.sa-el-social-share-buttons-style-boxed .sa-el-social-share-text,
+.sa-el-social-share-buttons-style-minimal .sa-el-social-share-text,
+.sa-el-social-share-buttons-style-gradient .sa-el-social-share-text {
+    padding-left: .9em
+}
+
+.sa-el-social-share-buttons-style-flat .sa-el-social-share,
+.sa-el-social-share-buttons-style-flat .sa-el-social-share:hover,
+.sa-el-social-share-buttons-style-gradient .sa-el-social-share,
+.sa-el-social-share-buttons-style-gradient .sa-el-social-share:hover {
+    color: #fff
+}
+
+.sa-el-social-share-buttons-style-minimal.sa-el-social-share-buttons-shape-rounded .sa-el-social-share-icon {
+    border-radius: .5em
+}
+
+.sa-el-social-share-buttons-style-minimal.sa-el-social-share-buttons-shape-circle .sa-el-social-share-icon {
+    border-radius: 99.9em
+}
+
+.sa-el-social-share-buttons-style-minimal .sa-el-social-share-text {
+    color: #222
+}
+
+.sa-el-social-share-buttons-view-text .sa-el-social-share-text {
+    padding-left: 1.3em
+}
+
+.sa-el-social-share-buttons-view-text .sa-el-social-share-icon,
+.sa-el-social-share-buttons-view-text .sa-el-social-share-text,
+.sa-el-social-share-buttons-view-icon .sa-el-social-share-icon,
+.sa-el-social-share-buttons-view-icon .sa-el-social-share-text {
+    flex-grow: 1;
+    justify-content: center
+}
+
+.sa-el-social-share-buttons-shape-rounded .sa-el-social-share-button {
+    border-radius: .5em
+}
+
+.sa-el-social-share-buttons-shape-circle .sa-el-social-share-button {
+    border-radius: 99.9em
+}
+
+.sa-el-social-share-button {
+    overflow: hidden;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition-duration: .2s;
+    transition-property: filter, background-color, border-color;
+    height: 4.2em;
+    cursor: pointer
+}
+
+.sa-el-social-share-icon,
+.sa-el-social-share-text {
+    transition-property: color, background-color;
+    transition-duration: .2s
+}
+
+.sa-el-social-share-icon {
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    width: 4.2em;
+    position: relative
+}
+
+.sa-el-social-share-icon i {
+    font-size: 1.5em
+}
+
+.sa-el-social-share-text {
+    font-size: 1.3em;
+    padding-right: 1.3em;
+    align-self: stretch;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    font-weight: 100
+}
+
+.sa-el-social-share-title {
+    font-weight: bold;
+    flex-shrink: 0
+}
+
+.sa-el-social-share-title+.sa-el-social-share-counter {
+    margin-left: .5em;
+    flex-shrink: 0
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-vkontakte,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-vkontakte {
+    background-color: #45668e
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-facebook,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-facebook {
+    background-color: #3b5998
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-odnoklassniki,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-odnoklassniki {
+    background-color: #F4731C
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-moimir,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-moimir {
+    background-color: #168DE2
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-googleplus,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-googleplus {
+    background-color: #dd4b39
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-linkedin,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-linkedin {
+    background-color: #0077b5
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-twitter,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-twitter {
+    background-color: #1DA1F2
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-livejournal,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-livejournal {
+    background-color: #00B0EA
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-tumblr,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-tumblr {
+    background-color: #35465c
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-blogger,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-blogger {
+    background-color: #F06A35
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-pinterest,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-pinterest {
+    background-color: #bd081c
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-digg,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-digg {
+    background-color: #005be2
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-evernote,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-evernote {
+    background-color: #2DBE60
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-reddit,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-reddit {
+    background-color: #ff4500
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-delicious,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-delicious {
+    background-color: #3399ff
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-stumbleupon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-stumbleupon {
+    background-color: #EB4924
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-pocket,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-pocket {
+    background-color: #EF3F56
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-surfingbird,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-surfingbird {
+    background-color: #25B1F6
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-liveinternet,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-liveinternet {
+    background-color: #5382C4
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-buffer,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-buffer {
+    background-color: #1B1B1B
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-instapaper,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-instapaper {
+    background-color: #000000
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-xing,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-xing {
+    background-color: #026466
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-wordpress,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-wordpress {
+    background-color: #21759b
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-baidu,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-baidu {
+    background-color: #2319DC
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-renren,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-renren {
+    background-color: #237EC5
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-weibo,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-weibo {
+    background-color: #E6162D
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-skype,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-skype {
+    background-color: #00AFF0
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-telegram,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-telegram {
+    background-color: #2CA5E0
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-viber,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-viber {
+    background-color: #834995
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-whatsapp,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-whatsapp {
+    background-color: #25d366
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-flat .sa-el-social-share-button-line,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button-line {
+    background-color: #00B900
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-vkontakte,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-vkontakte {
+    color: #45668e
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-facebook,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-facebook {
+    color: #3b5998
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-odnoklassniki,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-odnoklassniki {
+    color: #F4731C
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-moimir,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-moimir {
+    color: #168DE2
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-googleplus,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-googleplus {
+    color: #dd4b39
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-linkedin,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-linkedin {
+    color: #0077b5
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-twitter,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-twitter {
+    color: #1DA1F2
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-livejournal,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-livejournal {
+    color: #00B0EA
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-tumblr,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-tumblr {
+    color: #35465c
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-blogger,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-blogger {
+    color: #F06A35
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-pinterest,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-pinterest {
+    color: #bd081c
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-digg,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-digg {
+    color: #005be2
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-evernote,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-evernote {
+    color: #2DBE60
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-reddit,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-reddit {
+    color: #ff4500
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-delicious,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-delicious {
+    color: #3399ff
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-stumbleupon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-stumbleupon {
+    color: #EB4924
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-pocket,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-pocket {
+    color: #EF3F56
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-surfingbird,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-surfingbird {
+    color: #25B1F6
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-liveinternet,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-liveinternet {
+    color: #5382C4
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-buffer,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-buffer {
+    color: #1B1B1B
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-instapaper,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-instapaper {
+    color: #000000
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-xing,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-xing {
+    color: #026466
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-wordpress,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-wordpress {
+    color: #21759b
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-baidu,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-baidu {
+    color: #2319DC
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-renren,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-renren {
+    color: #237EC5
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-weibo,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-weibo {
+    color: #E6162D
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-skype,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-skype {
+    color: #00AFF0
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-telegram,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-telegram {
+    color: #2CA5E0
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-viber,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-viber {
+    color: #834995
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-whatsapp,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-whatsapp {
+    color: #25d366
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-framed .sa-el-social-share-button-line,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-line {
+    color: #00B900
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-vkontakte .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-vkontakte .sa-el-social-share-icon {
+    background-color: #45668e
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-facebook .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-facebook .sa-el-social-share-icon {
+    background-color: #3b5998
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-odnoklassniki .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-odnoklassniki .sa-el-social-share-icon {
+    background-color: #F4731C
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-moimir .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-moimir .sa-el-social-share-icon {
+    background-color: #168DE2;
+    color: #FFAF32
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-googleplus .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-googleplus .sa-el-social-share-icon {
+    background-color: #dd4b39
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-linkedin .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-linkedin .sa-el-social-share-icon {
+    background-color: #0077b5
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-twitter .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-twitter .sa-el-social-share-icon {
+    background-color: #1DA1F2
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-livejournal .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-livejournal .sa-el-social-share-icon {
+    background-color: #00B0EA
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-tumblr .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-tumblr .sa-el-social-share-icon {
+    background-color: #35465c
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-blogger .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-blogger .sa-el-social-share-icon {
+    background-color: #F06A35
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-pinterest .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-pinterest .sa-el-social-share-icon {
+    background-color: #bd081c
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-digg .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-digg .sa-el-social-share-icon {
+    background-color: #005be2
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-evernote .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-evernote .sa-el-social-share-icon {
+    background-color: #2DBE60
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-reddit .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-reddit .sa-el-social-share-icon {
+    background-color: #ff4500
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-delicious .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-delicious .sa-el-social-share-icon {
+    background-color: #3399ff
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-stumbleupon .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-stumbleupon .sa-el-social-share-icon {
+    background-color: #EB4924
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-pocket .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-pocket .sa-el-social-share-icon {
+    background-color: #EF3F56
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-surfingbird .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-surfingbird .sa-el-social-share-icon {
+    background-color: #25B1F6
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-liveinternet .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-liveinternet .sa-el-social-share-icon {
+    background-color: #5382C4
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-buffer .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-buffer .sa-el-social-share-icon {
+    background-color: #1B1B1B
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-instapaper .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-instapaper .sa-el-social-share-icon {
+    background-color: #000000
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-xing .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-xing .sa-el-social-share-icon {
+    background-color: #026466
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-wordpress .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-wordpress .sa-el-social-share-icon {
+    background-color: #21759b
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-baidu .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-baidu .sa-el-social-share-icon {
+    background-color: #2319DC
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-renren .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-renren .sa-el-social-share-icon {
+    background-color: #237EC5
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-weibo .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-weibo .sa-el-social-share-icon {
+    background-color: #E6162D
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-skype .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-skype .sa-el-social-share-icon {
+    background-color: #00AFF0
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-telegram .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-telegram .sa-el-social-share-icon {
+    background-color: #2CA5E0
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-viber .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-viber .sa-el-social-share-icon {
+    background-color: #834995
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-whatsapp .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-whatsapp .sa-el-social-share-icon {
+    background-color: #25d366
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-line .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-line .sa-el-social-share-icon {
+    background-color: #00B900
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button .sa-el-social-share-icon {
+    color: #fff
+}
+
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button-moimir .sa-el-social-share-icon .fa-moimir:before,
+.sa-el-social-share-buttons-color-original.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button-moimir .sa-el-social-share-icon .fa-moimir:before {
+    color: #FFAF32
+}
+
+.sa-el-social-share-buttons-style-framed .sa-el-social-share-button,
+.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button {
+    border-style: solid
+}
+
+.sa-el-social-share-buttons-style-gradient .sa-el-social-share-text {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.12) 0, rgba(0, 0, 0, 0) 100%)
+}
+
+.sa-el-social-share-buttons-style-gradient.sa-el-social-share-buttons-view-icon .sa-el-social-share-icon {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.12), transparent)
+}
+
+.sa-el-social-share-buttons-color-original .sa-el-social-share-button:hover {
+    filter: saturate(1.2) brightness(1.1)
+}
+
+.sa-el-social-share-buttons-color-custom.sa-el-social-share-buttons-style-flat .sa-el-social-share-button,
+.sa-el-social-share-buttons-color-custom.sa-el-social-share-buttons-style-gradient .sa-el-social-share-button {
+    background-color: #666
+}
+
+.sa-el-social-share-buttons-color-custom.sa-el-social-share-buttons-style-framed .sa-el-social-share-button,
+.sa-el-social-share-buttons-color-custom.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button,
+.sa-el-social-share-buttons-color-custom.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button {
+    color: #666;
+    border-color: #666
+}
+
+.sa-el-social-share-buttons-color-custom.sa-el-social-share-buttons-style-boxed .sa-el-social-share-button .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-custom.sa-el-social-share-buttons-style-minimal .sa-el-social-share-button .sa-el-social-share-icon {
+    background-color: #666
+}
+
+.sa-el-social-share-buttons-color-custom.sa-el-social-share-buttons-style-boxed .sa-el-social-share-icon,
+.sa-el-social-share-buttons-color-custom.sa-el-social-share-buttons-style-minimal .sa-el-social-share-icon {
+    color: #fff
+}

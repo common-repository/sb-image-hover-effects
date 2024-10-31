@@ -1,0 +1,1221 @@
+/* Hover Effect styles*/
+
+.sa-el-hover-effect-container {
+    position: relative;
+    clear: both;
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.sa-el-hover-effect-list {
+    display: block;
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sa-el-hover-effect-container .sa-el-hover-effect-item-wrap {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+    font-stretch: normal;
+    letter-spacing: normal;
+    word-wrap: normal;
+    word-spacing: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.sa-el-hover-effect-container .sa-el-hover-effect-item {
+    position: relative;
+    display: block;
+    text-align: center;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-container .sa-el-hover-effect-img-wrap {
+    position: relative;
+    display: block;
+}
+
+.sa-el-hover-effect-container .sa-el-hover-effect-img-wrap img {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.sa-el-hover-effect-img-wrap .sa-el-hover-effect-img-inner-wrap {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+}
+
+.sa-el-hover-effect-container .sa-el-hover-effect-info-wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: block;
+}
+
+.sa-el-hover-effect-info-wrap .sa-el-hover-effect-info-back {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sa-el-hover-effect-info-wrap .sa-el-hover-effect-content {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.sa-el-hover-effect-info-wrap .sa-el-hover-effect-title-wrap * {
+    margin: 0;
+    padding: 0;
+}
+
+.sa-el-hover-effect-info-wrap .sa-el-hover-effect-content .sa-el-hover-effect-divider {
+    height: 1px;
+    margin-top: 7px;
+    margin-bottom: 11px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.sa-el-hover-effect-info-wrap .sa-el-hover-effect-content .sa-el-hover-effect-divider .sa-el-hover-effect-divider-line {
+    border-style: solid;
+    border-width: 24px;
+    display: inline;
+}
+
+.sa-el-hover-effect-info-wrap .sa-el-hover-effect-content .sa-el-hover-effect-description {
+    font-size: 20px;
+    border-color: #000;
+}
+
+.sa-el-hover-effect-info-wrap .sa-el-hover-effect-content .sa-el-hover-effect-icon {
+    border-color: #000;
+}
+
+.sa-el-hover-effect-info-wrap .sa-el-hover-effect-content .sa-el-hover-effect-description * {
+    margin: 0;
+}
+
+.sa-el-hover-effect-item.style20 .sa-el-hover-effect-spinner,
+.sa-el-hover-effect-item,
+.sa-el-hover-effect-img-wrap,
+.sa-el-hover-effect-container .sa-el-hover-effect-img,
+.sa-el-hover-effect-info-wrap {
+    width: 300px;
+    height: 300px;
+}
+
+.sa-el-hover-effect-container .sa-el-hover-effect-item-wrap,
+.sa-el-hover-effect-container .sa-el-hover-effect-img,
+.sa-el-hover-effect-container .sa-el-hover-effect-info-back,
+.sa-el-hover-effect-container .sa-el-hover-effect-spinner {
+    border-radius: 50%;
+}
+
+
+/** Style 1 **/
+
+.sa-el-hover-effect-item.style1 .sa-el-hover-effect-img-wrap {
+    -webkit-transition: all .35s linear;
+    transition: all .35s linear;
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+
+.sa-el-hover-effect-item.style1 .sa-el-hover-effect-info-wrap {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.sa-el-hover-effect-item.style1 .sa-el-hover-effect-info-wrap .sa-el-hover-effect-info-back {
+    -webkit-transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
+    -ms-transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
+    transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
+    opacity: 1;
+    visibility: hidden;
+    -webkit-transition: all .35s linear;
+    transition: all .35s linear;
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.sa-el-hover-effect-item.style1:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translate3d(0, 280px, 0) rotate3d(1, 0, 0, -90deg);
+    -ms-transform: translate3d(0, 280px, 0) rotate3d(1, 0, 0, -90deg);
+    transform: translate3d(0, 280px, 0) rotate3d(1, 0, 0, -90deg);
+    opacity: 0;
+}
+
+.sa-el-hover-effect-item.style1:hover .sa-el-hover-effect-info-back {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: rotate3d(1, 0, 0, 0);
+    -ms-transform: rotate3d(1, 0, 0, 0);
+    transform: rotate3d(1, 0, 0, 0);
+}
+
+
+/**Style 2**/
+
+.sa-el-hover-effect-item.style2 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(1) translateY(0);
+    -ms-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    z-index: 11;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style2 .sa-el-hover-effect-info-wrap {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.sa-el-hover-effect-item.style2:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(.5) translateY(-100%);
+    -ms-transform: scale(.5) translateY(-100%);
+    transform: scale(.5) translateY(-100%);
+}
+
+.sa-el-hover-effect-item.style2:hover .sa-el-hover-effect-info-wrap {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+
+/**Style 2-1, 2-2**/
+
+.sa-el-hover-effect-item.style2-1 .sa-el-hover-effect-img-wrap,
+.sa-el-hover-effect-item.style2-2 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(1) translateX(0);
+    -ms-transform: scale(1) translateX(0);
+    transform: scale(1) translateX(0);
+    z-index: 11;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style2-1:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(.5) translateX(-100%);
+    -ms-transform: scale(.5) translateX(-100%);
+    transform: scale(.5) translateX(-100%);
+}
+
+.sa-el-hover-effect-item.style2-2:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(.5) translateX(100%);
+    -ms-transform: scale(.5) translateX(100%);
+    transform: scale(.5) translateX(100%);
+}
+
+.sa-el-hover-effect-item.style2-1 .sa-el-hover-effect-info-wrap,
+.sa-el-hover-effect-item.style2-2 .sa-el-hover-effect-info-wrap {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.sa-el-hover-effect-item.style2-1:hover .sa-el-hover-effect-info-wrap,
+.sa-el-hover-effect-item.style2-2:hover .sa-el-hover-effect-info-wrap {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+
+/*** Style 4 ***/
+
+.sa-el-hover-effect-item.style4 .sa-el-hover-effect-info-wrap {
+    opacity: 0;
+}
+
+.sa-el-hover-effect-item.style4:hover .sa-el-hover-effect-info-wrap {
+    opacity: 1;
+}
+
+.sa-el-hover-effect-item.style4 .sa-el-hover-effect-info-wrap .sa-el-hover-effect-info-back {
+    overflow: hidden;
+    transform: rotate3d(0, 1, 0, 180deg);
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform: rotate3d(0, 1, 0, 180deg);
+    -moz-transform-style: preserve-3d;
+    transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style4:hover .sa-el-hover-effect-info-wrap .sa-el-hover-effect-info-back {
+    z-index: 10;
+    transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+}
+
+
+/*** Style 5 ***/
+
+.sa-el-hover-effect-item.style5 .sa-el-hover-effect-img-wrap {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style5:hover .sa-el-hover-effect-img-wrap {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.sa-el-hover-effect-item.style5 .sa-el-hover-effect-info-wrap {
+    opacity: 0;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.sa-el-hover-effect-item.style5:hover .sa-el-hover-effect-info-wrap {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*** Style 5-1 ***/
+
+.sa-el-hover-effect-item.style5-1 .sa-el-hover-effect-img-wrap {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style5-1:hover .sa-el-hover-effect-img-wrap {
+    opacity: 0;
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.sa-el-hover-effect-item.style5-1 .sa-el-hover-effect-info-wrap {
+    opacity: 0;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.sa-el-hover-effect-item.style5-1:hover .sa-el-hover-effect-info-wrap {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*** Style 6 ***/
+
+.sa-el-hover-effect-item.style6 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    z-index: 11;
+}
+
+.sa-el-hover-effect-item.style6:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateY(50%) scale(.5);
+    -ms-transform: translateY(50%) scale(.5);
+    transform: translateY(50%) scale(.5);
+}
+
+.sa-el-hover-effect-item.style6 .sa-el-hover-effect-info-wrap {
+    opacity: 0;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.sa-el-hover-effect-item.style6:hover .sa-el-hover-effect-info-wrap {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*** Style 7 ***/
+
+.sa-el-hover-effect-item.style7 .sa-el-hover-effect-img-wrap {
+    -webkit-transform-origin: 5% 50%;
+    -ms-transform-origin: 5% 50%;
+    transform-origin: 5% 50%;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    z-index: 11;
+}
+
+.sa-el-hover-effect-item.style7 .sa-el-hover-effect-img-wrap:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin: -4px 0 0 -4px;
+    background: rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .9);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .9);
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.sa-el-hover-effect-item.style7:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: rotate(170deg);
+    -ms-transform: rotate(170deg);
+    transform: rotate(170deg);
+}
+
+
+/*** Style 7-1 ***/
+
+.sa-el-hover-effect-item.style7-1 .sa-el-hover-effect-img-wrap {
+    -webkit-transform-origin: 95% 50%;
+    -ms-transform-origin: 95% 50%;
+    transform-origin: 95% 50%;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    z-index: 11;
+}
+
+.sa-el-hover-effect-item.style7-1 .sa-el-hover-effect-img-wrap:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    margin: -4px 0 0 -4px;
+    background: rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .9);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .9);
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.sa-el-hover-effect-item.style7-1:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: rotate(-170deg);
+    -ms-transform: rotate(-170deg);
+    transform: rotate(-170deg);
+}
+
+
+/*** Style 8 ***/
+
+.sa-el-hover-effect-item.style8 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateX(0) rotate(0);
+    -ms-transform: translateX(0) rotate(0);
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style8:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateX(-100%) rotate(-180deg);
+    -ms-transform: translateX(-100%) rotate(-180deg);
+    transform: translateX(-100%) rotate(-180deg);
+    opacity: 0;
+    z-index: -1;
+}
+
+.sa-el-hover-effect-item.style8 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateX(-100%) rotate(-180deg);
+    -ms-transform: translateX(-100%) rotate(-180deg);
+    transform: translateX(-100%) rotate(-180deg);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style8:hover .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateX(0) rotate(0);
+    -ms-transform: translateX(0) rotate(0);
+    transform: translateX(0) rotate(0);
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+}
+
+
+/*** Style 8-1 ***/
+
+.sa-el-hover-effect-item.style8-1 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateY(0) rotate(0);
+    -ms-transform: translateY(0) rotate(0);
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style8-1:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateY(-100%) rotate(-180deg);
+    -ms-transform: translateY(-100%) rotate(-180deg);
+    transform: translateY(-100%) rotate(-180deg);
+    opacity: 0;
+    z-index: -1;
+}
+
+.sa-el-hover-effect-item.style8-1 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateY(-100%) rotate(-180deg);
+    -ms-transform: translateY(-100%) rotate(-180deg);
+    transform: translateY(-100%) rotate(-180deg);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style8-1:hover .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateY(0) rotate(0);
+    -ms-transform: translateY(0) rotate(0);
+    transform: translateY(0) rotate(0);
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+}
+
+
+/*** Style 8-2 ***/
+
+.sa-el-hover-effect-item.style8-2 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateY(0) rotate(0);
+    -ms-transform: translateY(0) rotate(0);
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style8-2:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateY(100%) rotate(180deg);
+    -ms-transform: translateY(100%) rotate(180deg);
+    transform: translateY(100%) rotate(180deg);
+    opacity: 0;
+    z-index: -1;
+}
+
+.sa-el-hover-effect-item.style8-2 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateY(100%) rotate(180deg);
+    -ms-transform: translateY(100%) rotate(180deg);
+    transform: translateY(100%) rotate(180deg);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style8-2:hover .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateY(0) rotate(0);
+    -ms-transform: translateY(0) rotate(0);
+    transform: translateY(0) rotate(0);
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+}
+
+
+/*** Style 8-3 ***/
+
+.sa-el-hover-effect-item.style8-3 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateX(0) rotate(0);
+    -ms-transform: translateX(0) rotate(0);
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style8-3:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateX(100%) rotate(180deg);
+    -ms-transform: translateX(100%) rotate(180deg);
+    transform: translateX(100%) rotate(180deg);
+    opacity: 0;
+    z-index: -1;
+}
+
+.sa-el-hover-effect-item.style8-3 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateX(100%) rotate(180deg);
+    -ms-transform: translateX(100%) rotate(180deg);
+    transform: translateX(100%) rotate(180deg);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style8-3:hover .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateX(0) rotate(0);
+    -ms-transform: translateX(0) rotate(0);
+    transform: translateX(0) rotate(0);
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+}
+
+
+/*** Style 9 ***/
+
+.sa-el-hover-effect-item.style9 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style9:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.sa-el-hover-effect-item.style9 .sa-el-hover-effect-img-wrap .sa-el-hover-effect-img-front {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-transition: all .3s ease-in-out .3s;
+    transition: all .3s ease-in-out .3s;
+}
+
+.sa-el-hover-effect-item.style9:hover .sa-el-hover-effect-img-front {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.sa-el-hover-effect-item.style9 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out .3s;
+    transition: all .3s ease-in-out .3s;
+}
+
+.sa-el-hover-effect-item.style9:hover .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 1;
+}
+
+.sa-el-hover-effect-item.style9 .sa-el-hover-effect-info-wrap .sa-el-hover-effect-info-back {
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transition: all .35s ease-in-out .6s;
+    transition: all .35s ease-in-out .6s;
+}
+
+.sa-el-hover-effect-item.style9:hover .sa-el-hover-effect-info-back {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*** Style 9-1 ***/
+
+.sa-el-hover-effect-item.style9-1 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style9-1:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.sa-el-hover-effect-item.style9-1 .sa-el-hover-effect-img-wrap .sa-el-hover-effect-img-front {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-transition: all .3s ease-in-out .3s;
+    transition: all .3s ease-in-out .3s;
+}
+
+.sa-el-hover-effect-item.style9-1:hover .sa-el-hover-effect-img-front {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.sa-el-hover-effect-item.style9-1 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out .3s;
+    transition: all .3s ease-in-out .3s;
+}
+
+.sa-el-hover-effect-item.style9-1:hover .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 1;
+}
+
+.sa-el-hover-effect-item.style9-1 .sa-el-hover-effect-info-wrap .sa-el-hover-effect-info-back {
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transition: all .35s ease-in-out .6s;
+    transition: all .35s ease-in-out .6s;
+}
+
+.sa-el-hover-effect-item.style9-1:hover .sa-el-hover-effect-info-back {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*** Style 9-2 ***/
+
+.sa-el-hover-effect-item.style9-2 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style9-2:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.sa-el-hover-effect-item.style9-2 .sa-el-hover-effect-img-wrap .sa-el-hover-effect-img-front {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+    -webkit-transition: all .3s ease-in-out .3s;
+    transition: all .3s ease-in-out .3s;
+}
+
+.sa-el-hover-effect-item.style9-2:hover .sa-el-hover-effect-img-front {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.sa-el-hover-effect-item.style9-2 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out .3s;
+    transition: all .3s ease-in-out .3s;
+}
+
+.sa-el-hover-effect-item.style9-2:hover .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+    z-index: 1;
+}
+
+.sa-el-hover-effect-item.style9-2 .sa-el-hover-effect-info-wrap .sa-el-hover-effect-info-back {
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transition: all .35s ease-in-out .6s;
+    transition: all .35s ease-in-out .6s;
+}
+
+.sa-el-hover-effect-item.style9-2:hover .sa-el-hover-effect-info-back {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*** Style 10 ***/
+
+.sa-el-hover-effect-item.style10 .sa-el-hover-effect-img-wrap {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style10:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.sa-el-hover-effect-item.style10 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style10:hover .sa-el-hover-effect-info-wrap {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+
+/*** Style 11 ***/
+
+.sa-el-hover-effect-item.style11 .sa-el-hover-effect-img-wrap {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style11:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.sa-el-hover-effect-item.style11 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+.sa-el-hover-effect-item.style11:hover .sa-el-hover-effect-info-wrap {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+
+/*** Style 12 ***/
+
+.sa-el-hover-effect-item.style12 .sa-el-hover-effect-img-wrap {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .35s ease-out;
+    transition: all .35s ease-out;
+}
+
+.sa-el-hover-effect-item.style12:hover .sa-el-hover-effect-img-wrap {
+    opacity: 0;
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.sa-el-hover-effect-item.style12 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+.sa-el-hover-effect-item.style12:hover .sa-el-hover-effect-info-wrap {
+    visibility: visible;
+    z-index: 0;
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+
+/*** Style 13 ***/
+
+.sa-el-hover-effect-item.style13 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateX(0) rotate(0);
+    -ms-transform: translateX(0) rotate(0);
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: all .35s ease-out;
+    transition: all .35s ease-out;
+}
+
+.sa-el-hover-effect-item.style13:hover .sa-el-hover-effect-img-wrap {
+    opacity: 0;
+    z-index: -1;
+    -webkit-transform: translateX(-100%) rotate(-180deg);
+    -ms-transform: translateX(-100%) rotate(-180deg);
+    transform: translateX(-100%) rotate(-180deg);
+}
+
+.sa-el-hover-effect-item.style13 .sa-el-hover-effect-info-wrap {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transition: all .35s ease .2s;
+    transition: all .35s ease .2s;
+}
+
+.sa-el-hover-effect-item.style13:hover .sa-el-hover-effect-info-wrap {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*** Style 14 ***/
+
+.sa-el-hover-effect-item.style14 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: translateZ(0) rotateY(0);
+    -ms-transform: translateZ(0) rotateY(0);
+    transform: translateZ(0) rotateY(0);
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style14:hover .sa-el-hover-effect-img-wrap {
+    opacity: 0;
+    -webkit-transform: translateZ(-1000px) rotateY(-90deg);
+    -ms-transform: translateZ(-1000px) rotateY(-90deg);
+    transform: translateZ(-1000px) rotateY(-90deg);
+}
+
+.sa-el-hover-effect-item.style14 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: translateZ(-1000px) rotateY(90deg);
+    -ms-transform: translateZ(-1000px) rotateY(90deg);
+    transform: translateZ(-1000px) rotateY(90deg);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .35s ease .35s;
+    transition: all .35s ease .35s;
+}
+
+.sa-el-hover-effect-item.style14:hover .sa-el-hover-effect-info-wrap {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateZ(0) rotateY(0);
+    -ms-transform: translateZ(0) rotateY(0);
+    transform: translateZ(0) rotateY(0);
+}
+
+
+/*** Style 15 ***/
+
+.sa-el-hover-effect-item.style15 .sa-el-hover-effect-info-wrap {
+    opacity: 0;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style15:hover .sa-el-hover-effect-info-wrap {
+    opacity: 1;
+}
+
+
+/*** Style 16 ***/
+
+.sa-el-hover-effect-item.style16 .sa-el-hover-effect-img-wrap {
+    -webkit-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    transform: rotateY(0);
+    -webkit-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+
+.sa-el-hover-effect-item.style16:hover .sa-el-hover-effect-img-wrap {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+}
+
+.sa-el-hover-effect-item.style16 .sa-el-hover-effect-info-wrap {
+    -webkit-transform: rotateY(-90deg);
+    -ms-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+    -webkit-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .35s ease-in-out .3s;
+    transition: all .35s ease-in-out .3s;
+}
+
+.sa-el-hover-effect-item.style16:hover .sa-el-hover-effect-info-wrap {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    transform: rotateY(0);
+}
+
+
+/*** Style 17 ***/
+
+.sa-el-hover-effect-item.style17 .sa-el-hover-effect-img-wrap {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style17:hover .sa-el-hover-effect-img-wrap {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(.5) rotate(720deg);
+    -ms-transform: scale(.5) rotate(720deg);
+    transform: scale(.5) rotate(720deg);
+}
+
+.sa-el-hover-effect-item.style17 .sa-el-hover-effect-info-wrap {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(.5) rotate(-720deg);
+    -ms-transform: scale(.5) rotate(-720deg);
+    transform: scale(.5) rotate(-720deg);
+    -webkit-transition: all .35s ease-in-out .3s;
+    transition: all .35s ease-in-out .3s;
+}
+
+.sa-el-hover-effect-item.style17:hover .sa-el-hover-effect-info-wrap {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+}
+
+
+/*** Style 18 ***/
+
+.sa-el-hover-effect-item.style18 .sa-el-hover-effect-info-wrap {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style18:hover .sa-el-hover-effect-info-wrap {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*** Style 19 ***/
+
+.sa-el-hover-effect-item.style19 .sa-el-hover-effect-img-wrap {
+    -webkit-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    z-index: 11;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.sa-el-hover-effect-item.style19:hover .sa-el-hover-effect-img-wrap {
+    -webkit-transform: rotate3d(0, 1, 0, -180deg);
+    -ms-transform: rotate3d(0, 1, 0, -180deg);
+    transform: rotate3d(0, 1, 0, -180deg);
+}
+
+
+/*** Style 20 ***/
+
+.sa-el-hover-effect-item.style20 .sa-el-hover-effect-spinner {
+    border-top-color: #6ec1e4;
+    border-left-color: #6ec1e4;
+    border-bottom-color: #54595f;
+    border-right-color: #54595f;
+}
+
+.sa-el-hover-effect-item.style20 .sa-el-hover-effect-spinner {
+    position: relative;
+    border-width: 10px;
+    border-style: solid;
+    z-index: 1;
+    -webkit-transition: transform .8s ease-out;
+    -webkit-transition: -webkit-transform .8s ease-out;
+    transition: -webkit-transform .8s ease-out;
+    transition: transform .8s ease-out;
+    transition: transform .8s ease-out, -webkit-transform .8s ease-out;
+}
+
+.sa-el-hover-effect-item.style20:hover .sa-el-hover-effect-spinner {
+    -webkit-transition: transform .8s ease-in-out;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    transition: transform .8s ease-in-out, -webkit-transform .8s ease-in-out;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.sa-el-hover-effect-item.style20 .sa-el-hover-effect-img-wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    -webkit-transition: all .35s linear;
+    transition: all .35s linear;
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+
+.sa-el-hover-effect-item.style20 .sa-el-hover-effect-info-wrap .sa-el-hover-effect-info-back {
+    -webkit-transition-delay: .5s;
+    transition-delay: .5s;
+    -webkit-transition: opacity .5s ease-in;
+    transition: opacity .5s ease-in;
+    opacity: 0;
+}
+
+.sa-el-hover-effect-item.style20:hover .sa-el-hover-effect-info-wrap .sa-el-hover-effect-info-back {
+    opacity: 1;
+}

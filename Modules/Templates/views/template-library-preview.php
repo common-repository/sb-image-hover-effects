@@ -1,0 +1,1 @@
+<img class="saeladdons-template-preview-img">

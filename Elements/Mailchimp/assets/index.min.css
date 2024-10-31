@@ -1,0 +1,152 @@
+.sa-el-form-fields-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.sa-el-field-group {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.sa-el-field-group .sa-el-mailchimp-input {
+    max-width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.sa-el-mailchimp-fields-wrapper.sa-el-mailchimp-btn-block .sa-el-mailchimp-submit-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*--- Inline style ---*/
+
+@media only screen and (min-width: 768px) {
+    .sa-el-mailchimp-inline .sa-el-form-fields-wrapper {
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sa-el-mailchimp-inline .sa-el-field-group.sa-el-mailchimp-submit-btn {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 100%;
+        -ms-flex: 1 100%;
+        flex: 1 100%;
+        margin-top: 10px;
+    }
+}
+
+.sa-el-mailchimp-inline .sa-el-field-group {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.sa-el-mailchimp-inline .sa-el-mailchimp-input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
+    margin-right: 5px;
+}
+
+.sa-el-mailchimp-wrap.sa-el-mailchimp-inline .sa-el-mailchimp-subscribe {
+    margin: 0;
+    width: 100%;
+}
+
+.sa-el-form-fields-wrapper.sa-el-mailchimp-fields-wrapper.sa-el-mailchimp-btn-block {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.sa-el-mailchimp-inline .sa-el-mailchimp-fields-wrapper.sa-el-mailchimp-btn-block .sa-el-mailchimp-submit-btn {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
+}
+
+
+/*--- Stacked style ---*/
+
+.sa-el-mailchimp-stacked .sa-el-mailchimp-fields-wrapper .sa-el-field-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sa-el-mailchimp-stacked .sa-el-mailchimp-fields-wrapper .sa-el-field-group label {
+    display: block;
+    width: 100%;
+}
+
+.sa-el-mailchimp-stacked .sa-el-mailchimp-fields-wrapper .sa-el-field-group .sa-el-mailchimp-input {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.sa-el-mailchimp-stacked .sa-el-mailchimp-fields-wrapper .sa-el-field-group.sa-el-mailchimp-submit-btn {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.sa-el-mailchimp-wrap .sa-el-mailchimp-subscribe {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.sa-el-field-group label {
+    display: block;
+}
+
+.sa-el-mailchimp-message p {
+    margin: 0;
+}
+
+.sa-el-mailchimp-message-text-center .sa-el-mailchimp-message {
+    text-align: center;
+}
+
+.sa-el-mailchimp-message-text-left .sa-el-mailchimp-message {
+    text-align: left;
+}
+
+.sa-el-mailchimp-message-text-right .sa-el-mailchimp-message {
+    text-align: right;
+}
+
+.sa-el-mailchimp-message-text-justify .sa-el-mailchimp-message {
+    text-align: justify;
+}

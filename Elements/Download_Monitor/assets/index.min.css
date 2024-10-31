@@ -1,0 +1,44 @@
+
+.sa-el-download-monitor-button {
+    text-align: left
+}
+
+.sa-el-download-monitor-button .sa-el-dm-description {
+    display: inline-block
+}
+
+.sa-el-download-monitor-button .sa-el-dm-description .sa-el-dm-title {
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.sa-el-download-monitor-button .sa-el-dm-description .sa-el-dm-meta>* {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: .7;
+    position: relative
+}
+
+.sa-el-download-monitor-button .sa-el-dm-description .sa-el-dm-meta *+* {
+    margin-left: 8px
+}
+
+.sa-el-download-monitor-button .sa-el-dm-description .sa-el-dm-meta *+*:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    border-left: 1px solid;
+    top: 9%;
+    left: -6px;
+    opacity: .5
+}
+.sa-el-download-monitor-button .sa-el-button-icon-align-left {
+    margin-right: 8px;
+    float: left;
+}
+.sa-el-download-monitor-button .sa-el-button-icon-align-right {
+    margin-left: 8px;
+    float: right;
+}

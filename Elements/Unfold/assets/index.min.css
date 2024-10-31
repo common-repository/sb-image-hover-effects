@@ -1,0 +1,81 @@
+.sa-el-unfold-container, .sa-el-unfold-wrap .sa-el-button i, .sa-el-unfold-wrap .sa-el-button span {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.sa-el-unfold-container .sa-el-unfold-heading {
+    margin-bottom: 5px;
+    border-color: #000;
+}
+.sa-el-unfold-container .sa-el-unfold-before {
+    margin-right: 5px;
+}
+.sa-el-unfold-container .sa-el-unfold-after {
+    margin-left: 5px;
+}
+.sa-el-unfold-container {
+    padding: 10px 10px 0 10px;
+}
+.sa-el-unfold-folder {
+    position: relative;
+    overflow: hidden;
+}
+.sa-el-unfold-gradient {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.sa-el-unfold-gradient.toggled {
+    visibility: visible;
+    opacity: 1;
+}
+.sa-el-button {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out !important;
+    -moz-transition: all 0.2s ease-in-out !important;
+    -ms-transition: all 0.2s ease-in-out !important;
+    -o-transition: all 0.2s ease-in-out !important;
+    transition: all 0.2s ease-in-out !important;
+}
+.sa-el-button-sm {
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 1;
+}
+.sa-el-button-md {
+    padding: 14px 26px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.sa-el-button-lg {
+    padding: 16px 28px;
+    font-size: 18px;
+    line-height: 1.3333;
+}
+.sa-el-button-block {
+    font-size: 15px;
+    line-height: 1;
+    padding: 12px 24px;
+    width: 100%;
+    text-align: center;
+}
+.sa-el-button-text {
+    display: inline-block;
+    width: 100%;
+}

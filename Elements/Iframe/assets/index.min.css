@@ -1,0 +1,14 @@
+.sa-el-document-viewer iframe {
+    border: none
+}
+
+iframe[data-src]:not(.lazy-loaded) {
+    background: rgba(152, 152, 152, 0.07);
+    background-image: url('https://www.sa-elementor-addons.com/wp-content/uploads/2019/11/loading.svg');
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+iframe.sa-el-cover {
+    pointer-events: none
+}

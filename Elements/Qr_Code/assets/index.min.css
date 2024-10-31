@@ -1,0 +1,7 @@
+.sa-el-qrcode canvas {
+    max-width: 100%
+}
+
+.sa-el-hidden {
+    display: none;
+}
